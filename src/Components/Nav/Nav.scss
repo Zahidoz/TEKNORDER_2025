@@ -1,0 +1,136 @@
+nav{
+    position: fixed;
+    z-index: 4; 
+    width: 100%;
+    margin-top: 20px;
+    height: 48px;
+    background: rgb(255, 255, 255);
+    display: flex;   
+    transition: .5s all;
+    .nav-logo{
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 65px;
+            height: 95%;
+        }
+    }
+    .nav-links{
+        width: 34%; 
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        ul{
+            width: 80%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            li{
+                a{
+                    font-size: 16px;
+                    cursor: pointer;
+                }
+            }
+            .nav-line{
+                width: 1px;
+                height: 60%;
+                background: rgb(0, 0, 0);
+            }
+        }
+    }
+    .nav-input{
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .inpt{
+            width: 45px;
+            height: 30px;
+            display: flex;
+            border: 1px solid rgb(89, 89, 89);
+            border-radius: 10px;
+            align-items: center;
+            transition: 1s;
+            input{
+                display: none;
+                width: 305px;
+                height: 30px;
+                padding-left: 17px;
+                background: transparent;
+                font-size: 17px;
+                &::placeholder{
+                    font-size: 17px;
+                    letter-spacing: 1px;
+                }
+            }   
+            #nav-lupa{
+                width: 45px;
+                padding: 2p x;
+                color: rgb(89, 89, 89);
+                height: 25px;
+                cursor: pointer;
+                transition: 1s;
+                &:hover{
+                    color: rgb(9, 4, 68);
+                }
+            }
+            
+        }
+        .inpt.uzan{
+            width: 350px;
+            input{
+                display: block;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1250px) {
+        .nav-logo{
+            width: 25%;
+        }
+        .nav-links{
+            width: 40%;
+            ul{
+                li{
+                    a{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        .nav-input{
+            width: 35%;
+            .inpt.uzan{
+                width: 300px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 950px) {
+        justify-content: space-between;
+        padding: 0 2vw;
+        .nav-logo{
+            width: 100px;
+        }
+        .nav-links{
+            display: none;
+        }
+        .nav-input{
+            width: 100%;
+            justify-content: end;
+            .inpt{
+                margin-right: 15px;
+            }
+        }
+    }
+    
+}
+nav.surus{
+    margin: 0;
+    border-bottom: 1px solid rgb(117, 114, 114)
+}

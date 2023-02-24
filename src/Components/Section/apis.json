@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "img":"oculus.png",
+        "name":"Meta Quest 2",
+        "desc1":"Virtual",
+        "desc2":"VR Headset",
+        "desc3":"2 Ədəd",
+        "desc4":"Wireless",
+        "desc5":"Wireless",
+        "price":"349azn",
+        "keywords": "white gaming game oculus quest 2 meta metaverse 128gb 256gb okulus vr virtual eynek kontroller oyun konsol"
+    },
+    {
+        "id":2,
+        "img":"airpods3.png",
+        "name":"Airpods 3",
+        "desc1":"Metaverse",
+        "desc2":"Virtual Reality",
+        "desc3":"2 Touch Controller",
+        "desc4":"Wireless",
+        "desc5":"Wireless",
+        "price":"845azn",
+        "keywords": "airpods3 3 apple alma qulaqciq qulaqliq headphones wireless white"
+    },
+    {
+        "id":3,
+        "img":"airpodsPro.png",
+        "name":"Airpods Pro",
+        "desc1":"i7 10700",  
+        "desc2":"512Gb NvMe SSD",
+        "desc3":"16Gb Ram(2400Mhz)",
+        "desc4":"Wireless",
+        "desc5":"Wireless",
+        "price":"2499azn",
+        "keywords": "airpods pro apple alma qulaqciq qulaqliq headphones wireless white"
+    },
+    {
+        "id":4,
+        "img":"appleWatch.png",
+        "name":"Apple Watch 3",
+        "desc1":"Wireless",
+        "desc2":"Wireless",
+        "desc3":"Wireless",
+        "desc4":"Wireless",
+        "desc5":"Wireless",
+        "price":"349azn",
+        "keywords": "apple watch 3 saat alma wireless white elektron"
+    },
+    {
+        "id":5,
+        "img":"hpPav.png",
+        "name":"Hp Pavillion",
+        "desc1":"Metaverse",
+        "desc2":"Virtual Reality",
+        "desc3":"2 Touch Controller",
+        "desc4":"Wireless",
+        "desc5":"",
+        "price":"845azn",
+        "keywords": "hp pavillion 15 16gb 512gb ssd 15.6 fhd laptop notbuk noutbuk ag white"
+    },
+    {
+        "id":6,
+        "img":"razerBacilistic.png",
+        "name":"Razer Basilisk",
+        "desc1":"Gaming Mouse",  
+        "desc2":"Wireless ",
+        "desc3":"16Gb Ram(2400Mhz)",
+        "desc4":"Wireless",
+        "desc5":"Wireless",
+        "price":"2499azn",
+        "keywords": "razer basilisk v2 wireless gaming game oyun dpi"
+    }
+]

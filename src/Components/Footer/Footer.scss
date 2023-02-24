@@ -1,0 +1,90 @@
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .footer-c1{
+        width: 92%;
+        height: 350px;
+        border-top: .5px solid #4A4545;
+        display: flex;
+        justify-content: space-between;
+        .footer-logo{
+            margin: 40px 0 0 50px;
+            width: 190px;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img{
+                width: 80px;
+            }
+            h1{
+                font-weight: 700;
+                font-size: 20px;
+            }
+        }
+        .footer-links{
+            width: 45%;
+            height: 100%;   
+            display: flex;
+            .footer-link{
+                width: 33%;
+                height: 100%;
+                padding-top: 40px;
+                display: flex;
+                flex-direction: column;
+                span{
+                    line-height: 50px;
+                    cursor: pointer;
+                    display: inherit;
+                }
+            }
+        }
+    }
+    .footer-c2{
+        width: 70%;
+        height: 80px;
+        border-top: 1px solid #4A4545;
+        display: flex;
+        justify-content: center;
+        img{
+            cursor: pointer;
+        }
+        .size_logo{
+            width: 30px;
+            height: 30px;
+            margin: 20px;
+
+        }
+        #youtube_logo{
+            width: 40px;
+            height: 30px;
+            margin: 20px;
+        }
+        
+    }
+    @media (max-width: 1400px) {
+        .footer-c1{
+            .footer-links{
+                width: 60%;
+            }
+        }
+    }
+    @media (max-width: 1100px) {
+        .footer-c1{
+            flex-direction: column;
+            align-items: center;
+            
+            .footer-links{
+                width: 100%;
+                .footer-link{
+                  padding-left: 50px;
+                }
+            }
+        }
+    }
+}

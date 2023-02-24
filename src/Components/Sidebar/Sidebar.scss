@@ -1,0 +1,66 @@
+.sidebar{
+    width: 450px;
+    height: 575px;
+    border: 1px solid #F7F7FF;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #C0C0E0;
+    .name{
+        width: 100%;
+        height: 64px;
+        background: #47C2FF;
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+        h2{
+            color: #fff;
+            font-weight: 400;
+        }
+    }
+    .filter{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+            width: 320px;
+            height: 48px;
+            border: 1px solid #C0C0E0;
+            background: transparent;
+            border-radius: 10px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            padding-left: 25px;
+            color: #8080C0;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    }
+    .links{
+        width: 100%;
+        height: 391px;
+        display: flex;
+        justify-content: end;
+        ul{
+            width: 385px;
+            height: 391px;
+            li{
+                width: 100%;
+                height: 60px;
+                color: #8080C0;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                padding-top: 15px;
+                font-size: 20px;
+                border-bottom: 1px solid #C0C0E0;
+                transition: .5s;
+                &:hover{
+                    border-bottom: 1px solid #8080C0;
+                }
+            }
+        }
+    }
+}
